@@ -25,11 +25,11 @@ This can be either a local account or a domain based account. This account will 
 1. Fill in the **Name**, **Description** and **Category** fields.
     > **Note**: Select "Untyped" for Category
 1. Paste the script into the Script text box. [EnhancedFolders.ps1](EnhancedFolders.ps1)
-1. Set variables on lines 6-10
+1. Set variables on lines 46, 52-55
 
     | Variable | Description | Example |
     | -------- | ----------- | ------- |
-    $SecretServerURL | Url of your SecretServer instance | https://pam.local/secretserver  https://privotter.secretservercloud.com/ |
+    $application | Url of your SecretServer instance | https://pam.local/secretserver  https://privotter.secretservercloud.com/ |
     $PFolderBaseID | folder ID of base folder for individual folders | integer
     $FolderOwnerUsers | comma separated list of userNames to include with folder owner permissions | @("Manager1","Manager2")
     $FolderOwnerGroups | comma separated list of GroupNames to include with folder owner permissions | @("Manager Group","PAM Administrators")
