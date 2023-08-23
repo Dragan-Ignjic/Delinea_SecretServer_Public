@@ -104,8 +104,8 @@ Event Pipelines are a named group of triggers, filters, and tasks to manage even
     | ------ | ------- |
     | Script | Select Script uploaded earlier |
     | Use Site Run As Secret | :heavy_check_mark: or leave :black_square_button: and use **Run Secret** to specify account opening the pssession
-    | Script Args | `$[add:1]$username $[add:1]$password "$targetuser.username" "$targetuser.displayname"`|
-    | | *(for AD based API account)*  `$[add:1]$username $[add:1]$password "$targetuser.username" "$targetuser.displayname" $[add:1]$domain ` |
+    | Script Args | `$[add:1]$username $[add:1]$password "$targetuserid" "$targetuser.displayname"`|
+    | | *(for AD based API account)*  `$[add:1]$username $[add:1]$password "$targetuserid" "$targetuser.displayname" $[add:1]$domain ` |
     |Run Site | Select desired Site
     |Additional Secret 1 | Select the secret containing the API user credentials| 
 
