@@ -4,10 +4,6 @@ This solution will replicate the Personal Folders option in Secret Server with a
 ---
 # Prerequisites 
 
-**The [Thycotic.SecretServer](https://github.com/thycotic-ps/thycotic.secretserver) PowerShell module**
-
-This will need to be loaded on all systems that can execute scripts from Event Pipelines. If you are leveraging Distributed Engines, then all Engine servers for the selected site will need the software, otherwise the scripts will be run on the web server nodes.
-
 **[SecretServer webservices](https://docs.thycotic.com/ss/11.1.0/webservices/enabling-webservices/index.md)**
 
 Must be enabled as we leverage the REST API.
