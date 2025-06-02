@@ -28,15 +28,7 @@ Or with credentials:
 $cred = Get-Credential
 Test-RPCDynamicPorts -ComputerName "TargetServer" -Credential $cred
 
-Example Output:
-ComputerName Port State   Reachable
-------------- ---- ------ ----------
-Server01       135 Listen     True
-Server01       445 Listen     True
-Server01     49168 Listen     True
-Server01     49301 Listen    False
-
-Requirements:
+## Requirements
 - PowerShell 5.1 or newer
 - WinRM enabled and accessible on the remote system
 - Proper permissions to use Invoke-Command
