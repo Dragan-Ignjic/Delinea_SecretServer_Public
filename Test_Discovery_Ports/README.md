@@ -18,7 +18,8 @@ A PowerShell function to check which RPC dynamic ports are listening on a remote
 
 You can use this function without downloading or installing anything:
 
-powershell:
+PowerShell:
+
 $TestRPC = ([ScriptBlock]::Create(((Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Dragan-Ignjic/Delinea_SecretServer_Public/refs/heads/main/Test_Discovery_Ports/Test-RPCDynamicPorts.ps1').Content))); . $TestRPC
 
 Then run the function:
