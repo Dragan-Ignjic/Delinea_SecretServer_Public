@@ -1,4 +1,5 @@
 <#
+USAGE:
 $TestRPC = ([ScriptBlock]::Create(((Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Dragan-Ignjic/Delinea_SecretServer_Public/refs/heads/main/Test_Discovery_Ports/Test-RPCDynamicPorts.ps1').Content))); . $TestRPC
 
 NO Creds
