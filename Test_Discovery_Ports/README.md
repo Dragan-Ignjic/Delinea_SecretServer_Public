@@ -28,7 +28,7 @@ Test-RPCDynamicPorts -ComputerName "TargetServer"
 
 Or with credentials:
 
-$cred = Get-Credential
+$cred = Get-Credential  
 Test-RPCDynamicPorts -ComputerName "TargetServer" -Credential $cred
 
 ## Requirements
