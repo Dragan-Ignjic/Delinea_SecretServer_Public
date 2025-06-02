@@ -1,4 +1,3 @@
-# Delinea_SecretServer_Public
 # Test-RPCDynamicPorts.ps1
 
 A PowerShell function to check which RPC dynamic ports are listening on a remote Windows machine, and whether they are reachable from the local system. This is useful for network diagnostics, firewall testing, and RPC troubleshooting.
